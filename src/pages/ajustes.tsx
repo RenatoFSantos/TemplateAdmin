@@ -3,13 +3,13 @@ import Layout from "../components/Layout";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Ajustes() {
   return (
     <Layout
-      titulo="Página Inicial"
-      subtitulo="Estamos construindo um template administrativo."
+      titulo="Ajustes & Configurações"
+      subtitulo="Personalize o sistema por aqui!"
     >
-      <h3>Novo conteúdo - children</h3>
+      <h3>Ajustes</h3>
     </Layout>
   );
 }
